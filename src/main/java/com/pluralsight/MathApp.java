@@ -40,7 +40,8 @@ public class MathApp {
         int secondsInMinute = 60;
         int millisecondsInSecond = 1000;
         int minutesInDay = hoursInDay * minutesInHour;
-        System.out.println("There are " + (minutesInDay * 24) + " minutes in 24 day.");
+    //The question asks for 24 days.
+        System.out.println("There are " + (minutesInDay * 24) + " minutes in 24 days.");
         long millisecondsInDay = minutesInDay * secondsInMinute * millisecondsInSecond;
         System.out.println("There are " + (millisecondsInDay * 24) + " milliseconds in 24 days.");
 
